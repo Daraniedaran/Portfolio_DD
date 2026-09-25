@@ -8,8 +8,8 @@ export const portfolio = {
   location: "Tamil Nadu, India",
   email: "daraniedaran@gmail.com",
   phone: "+91 9043894153",
-  resumeUrl: "/resume.pdf",
-  photo: "/profile.jpg", // drop your photo at public/profile.jpg (or share the file path and I rewire this)
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
+  photo: `${import.meta.env.BASE_URL}profile.jpg`, // drop your photo at public/profile.jpg (or share the file path and I rewire this)
   socials: {
     github: "https://github.com/Daraniedaran",
     linkedin: "https://linkedin.com/in/daraniedaran-k",
@@ -52,10 +52,10 @@ export const portfolio = {
     },
   ],
   certifications: [
-    { title: "IT Specialist – Python", issuer: "Certiport / Pearson VUE", date: "Oct 2024", type: "certification", image: "/certificates/it-specialist-python.jpg" },
-    { title: "Full Stack Development", issuer: "NoviTech R&D Pvt. Ltd.", date: "Aug 2025", type: "certification", image: "/certificates/full-stack-novitech.jpg" },
-    { title: "The Joy of Computing using Python — Elite (67%)", issuer: "NPTEL", date: "Apr 2026", type: "certification", highlight: true, image: "/certificates/nptel-joy-python.jpg" },
-    { title: "Code 4 Change 2026 – Hackathon", issuer: "Karpaga Vinayaga College of Eng. & Tech.", date: "Feb 2026", type: "hackathon", image: "/certificates/code4change-hackathon.jpg" },
+    { title: "IT Specialist – Python", issuer: "Certiport / Pearson VUE", date: "Oct 2024", type: "certification", image: `${import.meta.env.BASE_URL}certificates/it-specialist-python.jpg` },
+    { title: "Full Stack Development", issuer: "NoviTech R&D Pvt. Ltd.", date: "Aug 2025", type: "certification", image: `${import.meta.env.BASE_URL}certificates/full-stack-novitech.jpg` },
+    { title: "The Joy of Computing using Python — Elite (67%)", issuer: "NPTEL", date: "Apr 2026", type: "certification", highlight: true, image: `${import.meta.env.BASE_URL}certificates/nptel-joy-python.jpg` },
+    { title: "Code 4 Change 2026 – Hackathon", issuer: "Karpaga Vinayaga College of Eng. & Tech.", date: "Feb 2026", type: "hackathon", image: `${import.meta.env.BASE_URL}certificates/code4change-hackathon.jpg` },
     { title: "Volunteer – Photo Exhibition Contest 2K25", issuer: "Dept. of IT, Mailam Engineering College", date: "2025", type: "volunteer" },
     { title: "Volunteer – HackIndia 2026 Spark-3", issuer: "Dept. of IT, Mailam Engineering College", date: "2026", type: "volunteer" },
   ],

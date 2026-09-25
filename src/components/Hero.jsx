@@ -18,7 +18,7 @@ function ProfilePhotoCard() {
         {/* Image wrapper */}
         <div className="zoom-img relative rounded-[1.75rem] overflow-hidden aspect-[4/5] bg-gradient-to-b from-[#FFFACD]/60 to-white shadow-inner">
           <img
-            src="/profile.jpg"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
             alt={`${portfolio.name} - Full Stack Developer`}
             className="w-full h-full object-cover object-top"
             loading="eager"
