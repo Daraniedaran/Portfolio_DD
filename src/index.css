@@ -280,6 +280,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   border-radius: 8px;
 }
 
+/* Navbar signature hover — aurora sweep */
+.nav-aurora { background: linear-gradient(120deg, #FFFACD, #FFEFA8, rgba(184,17,4,0.15)); }
+
 @media (prefers-reduced-motion: reduce) {
   .shine::after, .link-underline::after {
     display: none;
