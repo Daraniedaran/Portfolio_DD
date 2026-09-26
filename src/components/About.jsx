@@ -59,7 +59,7 @@ export default function About() {
             <div className="pt-6 mt-6 border-t border-slate-200 grid grid-cols-2 sm:grid-cols-3 gap-3">
               <div className="hover-smooth hover-lift-sm hover:border-[#B81104]/30 hover:shadow-md hover:bg-white bg-slate-50 border border-slate-200 rounded-xl p-3 cursor-default">
                 <span className="block text-[11px] font-mono text-slate-500">Current CGPA</span>
-                <span className="text-lg font-bold text-slate-900">8.47 / 10</span>
+                <span className="text-lg font-bold text-slate-900">8.43 / 10</span>
               </div>
               <div className="hover-smooth hover-lift-sm hover:border-[#B81104]/30 hover:shadow-md hover:bg-white bg-slate-50 border border-slate-200 rounded-xl p-3 cursor-default">
                 <span className="block text-[11px] font-mono text-slate-500">College</span>

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X, FileText, Home, User, Cpu, GraduationCap, FolderKanban, Mail } from "lucide-react";
+import { Menu, X, FileText, Home, User, Cpu, GraduationCap, FolderKanban, Mail, Award } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { portfolio } from "../data/portfolio";
 
@@ -10,6 +10,7 @@ const NAV_ICONS = {
   about: User,
   skills: Cpu,
   education: GraduationCap,
+  certificates: Award,
   projects: FolderKanban,
   contact: Mail,
 };
@@ -19,6 +20,7 @@ const LINKS = [
   { href: "#about", label: "About" },
   { href: "#skills", label: "Skills" },
   { href: "#education", label: "Education" },
+  { href: "#certificates", label: "Certificates" },
   { href: "#projects", label: "Projects" },
   { href: "#contact", label: "Contact" },
 ];

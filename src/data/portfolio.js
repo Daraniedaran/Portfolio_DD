@@ -15,15 +15,15 @@ export const portfolio = {
     linkedin: "https://linkedin.com/in/daraniedaran-k",
   },
   stats: [
-    { value: "8.47", label: "CGPA" },
-    { value: "3", label: "Major Projects" },
+    { value: "8.43", label: "CGPA" },
+    { value: "4", label: "Major Projects" },
     { value: "6+", label: "Certifications" },
   ],
   about:
     "Aspiring Full Stack Developer with hands-on experience in building responsive web applications using modern web technologies. Final-year B.Tech Information Technology student at Mailam Engineering College (2023–2027) with a strong interest in Full Stack Development, AI-powered applications and problem-solving.",
   roles: ["React Frontend", "FastAPI Backend", "AI-Powered Apps"],
   skills: [
-    { group: "Languages", items: ["Python", "Java"] },
+    { group: "Languages", items: ["Python"] },
     { group: "Frontend", items: ["HTML", "CSS", "JavaScript", "React.js", "React Native"] },
     { group: "Backend / Data", items: ["FastAPI", "Firebase", "MySQL", "REST APIs"] },
     { group: "Tools", items: ["Git", "GitHub", "Microsoft 365", "Figma"] },
@@ -33,7 +33,7 @@ export const portfolio = {
       period: "2023 — 2027",
       degree: "B.Tech Information Technology",
       school: "Mailam Engineering College",
-      score: "CGPA 8.47",
+      score: "CGPA 8.43",
       detail: "Final-year student. Interests: Full Stack Development, AI-powered applications, problem-solving.",
     },
     {
@@ -61,6 +61,20 @@ export const portfolio = {
   ],
   projects: [
     {
+      title: "AI Interview Preparation",
+      desc: "AI-powered mock interview platform that generates role-based questions, evaluates answers and gives personalized feedback with progress tracking.",
+      stack: ["React", "FastAPI", "AI Integration"],
+      github: "https://github.com/Daraniedaran/ai-interview-preparation",
+      live: "https://ai-interview-portal-9gez.onrender.com/",
+    },
+    {
+      title: "Intelligent AI Chat Assistant",
+      desc: "Full-stack conversational AI platform built with React, FastAPI, and OpenAI API, featuring context-aware conversations, persistent chat history, Markdown/code rendering, response regeneration, dark mode, and a secure REST architecture.",
+      stack: ["React", "FastAPI", "OpenAI API", "REST APIs"],
+      github: "https://github.com/Daraniedaran",
+      live: "#",
+    },
+    {
       title: "HotFiNet",
       desc: "Peer-to-peer internet sharing platform. Mobile app with secure real-time sharing of mobile internet between nearby users via QR-based connection and a digital coin economy.",
       stack: ["React Native", "Firebase", "QR System"],
@@ -73,13 +87,6 @@ export const portfolio = {
       stack: ["React", "FastAPI", "AI Integration"],
       github: "https://github.com/Daraniedaran/Smart-Academic-Companion",
       live: "https://smart-academic-companion-ten.vercel.app/",
-    },
-    {
-      title: "AI Interview Preparation",
-      desc: "AI-powered mock interview platform that generates role-based questions, evaluates answers and gives personalized feedback with progress tracking.",
-      stack: ["React", "FastAPI", "AI Integration"],
-      github: "https://github.com/Daraniedaran/ai-interview-preparation",
-      live: "https://ai-interview-portal-9gez.onrender.com/",
     },
   ],
 };

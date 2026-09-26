@@ -2,7 +2,6 @@ import {
   Atom,
   Braces,
   Code2,
-  Coffee,
   Database,
   FileCode2,
   Flame,
@@ -24,7 +23,6 @@ import Reveal, { SectionHeading } from "./Reveal";
 
 const SKILL_ICONS = {
   Python: FileCode2,
-  Java: Coffee,
   HTML: Code2,
   CSS: Palette,
   JavaScript: Braces,
